@@ -21,6 +21,9 @@ from fairseq.meters import AverageMeter, StopwatchMeter
 
 
 def main(args, init_distributed=False):
+
+    print("THIS IS FROM REAL LIFE")
+    exit(1)
     utils.import_user_module(args)
 
     assert args.max_tokens is not None or args.max_sentences is not None, \
